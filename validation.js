@@ -27,10 +27,7 @@ function val(){
         error.innerHTML = text;
         return false;
     }
-    var form = document.getElementById("myform");
-    form.style.display = 'none';
-    var disp = document.getElementById("success");
-    disp.style.display = 'block';
+    window.location.replace("welcome.html")
     error.style.padding = "10px";
     return false;
 }
